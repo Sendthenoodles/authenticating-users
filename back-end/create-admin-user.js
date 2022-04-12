@@ -5,7 +5,7 @@ const users = require("./users.js");
 const User = users.model;
 
 // connect to Mongo
-mongoose.connect('mongodb://localhost:27017/pagliaccio', {
+mongoose.connect('mongodb://localhost:27017/store', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });

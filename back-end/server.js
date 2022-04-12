@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // connect to the mongodb database
-mongoose.connect('mongodb://localhost:27017/pagliaccio', {
+mongoose.connect('mongodb://localhost:27017/store', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });
